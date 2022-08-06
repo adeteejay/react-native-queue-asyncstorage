@@ -13,7 +13,10 @@ import Worker from './Worker';
 
 
 export class Queue {
-
+  jobDB;
+  worker;
+  status;
+  executeFailedJobsOnStart;
   /**
    *
    * Set initial class properties.
