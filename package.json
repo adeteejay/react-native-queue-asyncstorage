@@ -2,7 +2,7 @@
   "name": "react-native-queue",
   "version": "1.2.1",
   "description": "A React Native Job Queue",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage && if [ \"$COVERALLS_ENV\" = \"production\" ]; then cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; fi",
     "lint": "eslint ."
